@@ -4,7 +4,7 @@
     <h2><%= link_to movie.title, movie_path(movie) %></h2>
     <p><%= movie.comment%></p>
     <%= link_to "映画の変更", edit_movie_path(movie) %> 
-    <%= link_to "映画の削除", movie_path(article), method: :delete, data: {confirm: "本当によろしいですか？"} %>
+
     <% end %>
 
 <%= link_to "トップに戻る", homes_index_path %>
